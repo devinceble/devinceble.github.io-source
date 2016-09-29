@@ -1,0 +1,34 @@
+baseurl = "https://devinceble.github.io/"
+theme = "cocoa"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Leivince John"
+title = "Leivince John"
+pygmentsuseclasses = true
+# disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+Author = "Leivince John"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 GMT+8"
+Description = "Don't panic"
+Email = "devinceble@gmail.com"
+FaviconFile = "img/leaf.ico"
+GATracker = "XYZ"
+GitHub = "//github.com/devinceble"
+HighlightJS = true
+Initials = "ad" # Displayed on single post page; DEPRECATED in v0.3.0.
+Lang = "en"
+LinkedIn = "//linkedin.com/in/devinceble"
+Twitter = "//twitter.com/devinceble"
+ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
